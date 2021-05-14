@@ -29,9 +29,12 @@ $('h2').mouseleave(function(){
 
 $(function(){
     $('#btn').click(function(){
-        $('.card-body').hide(800);
+        $('p.card-text').hide(800);
     })
+    
 })
+
+
 
 
 /*$(function(){
