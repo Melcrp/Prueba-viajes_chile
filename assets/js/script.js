@@ -28,7 +28,7 @@ $('h2').mouseleave(function(){
 });
 
 $(function(){
-    $('#btn').click(function(){
+    $('.btn').click(function(){
         $('p.card-text').hide(800);
     })
     
