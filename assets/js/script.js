@@ -15,7 +15,6 @@ $("a").click(function(event){
 });
 });
 $(function(){
-
 /*popover aplicados a los iconos del footer*/
 $('[data-toggle="popover"]').popover()
 
@@ -29,8 +28,15 @@ $('h2').mouseleave(function(){
 });
 
 $(function(){
+    $('#btn').click(function(){
+        $('.card-body').hide(800);
+    })
+})
 
-/*card padre*/
+
+/*$(function(){
+
+/*card padre
 var btnUno = padre.eq(0);
 var btnDos = padre.eq(1);
 var btnTres = padre.eq(2);
@@ -49,13 +55,12 @@ var textoCuatro = hijos.eq(3).find('p.card-text').hide();
 btnUno.click(function(event){
     event.preventDefault();
     console.log('probar click en el boton uno');
-    textoUno.fadetoggle('fast');
-
-});
+    textoUno.fadetoggle('fast');*/
 
 
 
 
 
-});
+
+
 
