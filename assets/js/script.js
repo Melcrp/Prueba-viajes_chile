@@ -1,5 +1,6 @@
 $(function(){
 //scroll suave de navegación
+
 $("a").click(function(event){
     if (this.hash !== "") {
         event.preventDefault();
@@ -26,7 +27,7 @@ $('h2').mouseleave(function(){
 });
 
 });
-
+//con click en botón de cards se ocultará card-text (todo el texto de estás)
 $(function(){
     $('.btn').click(function(){
         $('p.card-text').hide(800);
@@ -34,31 +35,6 @@ $(function(){
     
 })
 
-
-
-
-/*$(function(){
-
-/*card padre
-var btnUno = padre.eq(0);
-var btnDos = padre.eq(1);
-var btnTres = padre.eq(2);
-var btnCuatro = padre.eq(3);
-
-var hijos = $('.card').children();
-console.log('muestra los hijos--->, hijos');
-
-var textoUno = hijos.eq(0).find('p.card-text').hide();
-var textoDos = hijos.eq(1).find('p.card-text').hide();
-var textoTres = hijos.eq(2).find('p.card-text').hide();
-var textoCuatro = hijos.eq(3).find('p.card-text').hide();
-
-//evento jquery ocultar texto
-
-btnUno.click(function(event){
-    event.preventDefault();
-    console.log('probar click en el boton uno');
-    textoUno.fadetoggle('fast');*/
 
 
 

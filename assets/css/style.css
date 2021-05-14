@@ -1,8 +1,9 @@
+/*se le aplicó tipografía roboto y un fono negro*/
 body {
     background-color: black;
     font-family: 'Roboto', sans-serif;
 }
-
+/*se le aplico un tamaño a la tipografía del navbar*/
 .navbar {
     font-size: 20px;
     font-weight: 300;
